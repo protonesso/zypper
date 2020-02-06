@@ -9,6 +9,7 @@
 #include <iostream>
 #include <sstream>
 #include <fstream>
+#include <stdlib.h>
 #include <poll.h>
 #include <readline/readline.h>
 #include <termios.h>
