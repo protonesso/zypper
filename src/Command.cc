@@ -52,12 +52,14 @@ using namespace zypp;
 ///////////////////////////////////////////////////////////////////
 namespace
 {
+/*
 #define EXPAND_PARAMETER_PACKS_IN_LAMBDAS
 #ifdef __GNUC__
 #  if !__GNUC_PREREQ(4,9)
 #    undef EXPAND_PARAMETER_PACKS_IN_LAMBDAS
 #  endif
 #endif
+*/
 
 #ifdef EXPAND_PARAMETER_PACKS_IN_LAMBDAS
   template < typename T, typename ... Args >
